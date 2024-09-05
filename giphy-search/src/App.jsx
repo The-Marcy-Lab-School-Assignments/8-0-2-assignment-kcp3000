@@ -3,7 +3,6 @@ import GifContainer from './components/GifContainer'
 import GifSearch from './components/GifSearch'
 import { handleFetch } from './utils';
 import { useState, useEffect } from 'react';
-import { API_KEY } from './config';
 
 const URL = `/api/gifs`
 
