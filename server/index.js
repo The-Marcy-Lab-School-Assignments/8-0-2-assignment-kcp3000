@@ -28,6 +28,7 @@ const serveGifs = async (req, res, next) => {
     console.log(error.message);
     return res.status(404).send(error);
   }
+  // console.log(data)
   res.send(data);
 }
 
